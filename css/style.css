@@ -18,19 +18,28 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav h2{
     color: #fff;
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
     letter-spacing: 1px;
 }
 
+nav h2:hover{
+    transform: scale(1.2);
+}
+
 span{
     color: #f9004d;
+}
+
+span:hover{
+    color: #fff;
+    transform: scale(1.2);
 }
 
 nav ul li{
@@ -44,6 +53,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 /*efeito do mause passando em cima/mudando de cor */
@@ -54,4 +64,15 @@ nav ul li a:hover{
 
 .btn{
     text-decoration: none;
+    color: #fff;
+    background-color: #f9004d;
+    padding: 15px 50px;
+    border-radius: 50px; 
+    font-weight: bold;   
+}
+ 
+/*efeito no botão*/
+.btn:hover{
+    transition: transform .4s;
+    transform: scale(1.5);
 }
