@@ -7,7 +7,7 @@ import plotly.express as px
 #     page_title="Projeto: Dashboard de Gestão de Vendas",
 #     layout="wide",
 # )
-st.page_link("pages/home.py", icon="🏠")
+
 st.title("📊 Projeto – Dashboard de Gestão de Vendas")
 
 st.markdown("""

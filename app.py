@@ -3,9 +3,10 @@ from pathlib import Path
 
 pg = st.navigation(
     [
+        st.Page("pages/home.py", title="Home"),
         st.Page("pages/gestao-venda.py", title="Gestão de Vendas"),
         st.Page("pages/setic.py", title="SETIC"),
-        st.Page("pages/home.py", title="Home"),
+        
     ],
     position="hidden",
 )
