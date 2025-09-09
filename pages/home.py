@@ -228,6 +228,15 @@ with tabs_extra[0]:
             "img": "assets/img/gestao-vendas.png"
         },
         {
+            "title": "🌐 Aprimoramento de Gestão",
+            "description": (
+                "Desenvolvi um sistema para analisar a gestão de uma empresa.  "
+                "Esse projeto é um painel com as informações da execução orçamentária e financeira de um órgão fictício"
+            ),
+            "link": "https://github.com/RaphaelFF/",
+            "img": "assets/img/aprimoramento.png"
+        },
+        {
             "title": "🌐 Monitoramento de Redes (Python + Streamlit + Zabbix)",
             "description": (
                 "Desenvolvi um sistema para monitorar em tempo real o status das redes de diferentes comarcas do Amapá, "
